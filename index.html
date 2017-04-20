@@ -58,7 +58,7 @@
 
         yAxis: {
           title: {
-            text: 'Posiciones   // EDIT to insert vertical y-axis label
+            text: 'Posiciones'   // EDIT to insert vertical y-axis label
           }
         },
 
@@ -83,8 +83,8 @@
               // EDIT tooltip text labels below to match your data
               html = '<table>';
               html += '<tr><th colspan="2"><h3>Puntaje: ' + point.name + '</h3></th></tr>';
-              //html += '<tr><th>Median household income:</th><td>$' + comma(point.x) + '</td></tr>';
-              //html += '<tr><th>Grades above/below average:</th><td>' + point.y + '</td></tr>';
+              html += '<tr><th>Median household income:</th><td>$' + comma(point.x) + '</td></tr>';
+              html += '<tr><th>Grades above/below average:</th><td>' + point.y + '</td></tr>';
               html += '</table>';
 
               return html;
