@@ -27,11 +27,11 @@
         },
 
         title: {
-          text: 'Este es mi titulaco desde CSV te lo agarro todo'  // EDIT to insert your chart title
+          text: 'Clasificaciones del Valencia C.F en los últimos años'  // EDIT to insert your chart title
         },
 
         subtitle: {
-          text: 'View <a href="data-scatter.csv"> source data</a> Amén', // EDIT link and text
+          text: 'View <a href="data-scatter.csv"> source data</a> Amunt!!', // EDIT link and text
           useHTML: true
         },
 
@@ -52,13 +52,13 @@
 
         xAxis: {
           title: {
-            text: 'Puto X'  // EDIT to insert horizontal x-axis label
+            text: 'Temporada'  // EDIT to insert horizontal x-axis label
           }
         },
 
         yAxis: {
           title: {
-            text: 'Puto Y'   // EDIT to insert vertical y-axis label
+            text: 'Posiciones   // EDIT to insert vertical y-axis label
           }
         },
 
@@ -82,9 +82,9 @@
               point = this.point;
               // EDIT tooltip text labels below to match your data
               html = '<table>';
-              html += '<tr><th colspan="2"><h3>District: ' + point.name + '</h3></th></tr>';
-              html += '<tr><th>Median household income:</th><td>$' + comma(point.x) + '</td></tr>';
-              html += '<tr><th>Grades above/below average:</th><td>' + point.y + '</td></tr>';
+              html += '<tr><th colspan="2"><h3>Puntaje: ' + point.name + '</h3></th></tr>';
+              //html += '<tr><th>Median household income:</th><td>$' + comma(point.x) + '</td></tr>';
+              //html += '<tr><th>Grades above/below average:</th><td>' + point.y + '</td></tr>';
               html += '</table>';
 
               return html;
